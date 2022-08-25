@@ -1,0 +1,21 @@
+body{
+    background-color: #cbd4c7;
+}
+
+.text-shadow{
+    text-shadow: 1px 5px 10px #777;
+}
+
+.c_pointer{
+    cursor: pointer;
+    pointer-events: all !important;
+}
+
+.hover{
+    filter: brightness(1);
+    transition: all 0.2s ease-in-out;
+}
+
+.hover:hover{
+    filter: brightness(0.9);
+}
