@@ -1,0 +1,9 @@
+.c_pointer{
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.btn{
+    position: relative;
+    bottom: 3px;
+}
