@@ -1,6 +1,7 @@
+// @ts-nocheck
 export const listTodo = Vue.component( 'listTodo', {
     props: [ 'v' ],
-    
+
     template: `
     <div id="listTodo" class="mt-2">
             <ul class="list-group shadow">

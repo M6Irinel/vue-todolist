@@ -1,6 +1,7 @@
+// @ts-nocheck
 export const listDone = Vue.component( 'listDone', {
     props: [ 'v' ],
-    
+
     template: `
     <div id="listTodo" class="mt-4">
         <h2 class="text-center text-shadow fw-bold">Done</h2>

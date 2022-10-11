@@ -1,6 +1,7 @@
+// @ts-nocheck
 export const add_newTodo = Vue.component( 'add_newTodo', {
     props: [ 'v' ],
-    
+
     template: `
     <div id="add_newTodo" class="d-flex justify-content-between">
         <input class="shadow flex-grow-1 border rounded-2 p-1 ps-5"
